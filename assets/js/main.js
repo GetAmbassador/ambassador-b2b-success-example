@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('.panel').on('hidden.bs.collapse', toggleIcon);
     $('.panel').on('shown.bs.collapse', toggleIcon);
     
-    /* ======= Fixed header when scrolled ======= */
+    /* ======= Fixed header when scrolled (Disabled) =======
     
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 0) {
@@ -40,6 +40,8 @@ $(document).ready(function() {
              $('#header').removeClass('navbar-fixed-top');
          }
     });
+    
+    */
     
     /* ======= Toggle between Signup & Login & ResetPass Modals ======= */ 
     $('#signup-link').on('click', function(e) {
